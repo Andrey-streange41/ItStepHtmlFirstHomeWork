@@ -1,0 +1,205 @@
+*
+{
+    box-sizing: border-box;
+}
+
+
+main 
+{
+    
+    width: 1520px;
+    height: 1000px;
+    margin: 5%;
+}
+
+h1{
+    padding-right: 20% ;
+    padding-left: 22% ;
+    margin-bottom: 2%;
+
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+h1::first-letter
+{
+    color: red;
+}
+h1>span:first-child
+{
+    color: rgb(114, 28, 226);
+
+}
+h1>span:nth-child(2)
+{
+    color: rgb(83, 245, 97);
+}
+h1>span:nth-child(3)
+{
+    color: rgb(226, 28, 200);
+}
+
+.firstBlock>span:first-child
+{
+    color: rgb(226, 28, 200);
+    padding-left: 20px;
+}
+.firstBlock>span:nth-child(2)
+{
+    color: red;
+}
+.firstBlock>span:nth-child(3)
+{
+    color: rgb(20, 37, 190);
+}
+.firstBlock>sup>span
+{
+    color: rgb(178, 235, 46);
+    font-size: small;
+    font-style: italic;
+    font-weight: normal;
+
+}
+.firstBlock>span:nth-child(5)
+{
+    color: red;
+text-decoration: line-through;
+
+}
+
+main:first-child>p
+{
+    padding-right: 30% ;
+    padding-left: 20% ;
+    
+    
+    font-weight:bold;
+    font-style: italic;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.secondBlock
+{
+    padding-right: 20% ;
+    padding-left: 20% ;
+    margin-bottom: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.secondBlock>p{
+    margin-top: 4%;
+}
+
+.secondBlock>p:first-child
+{
+    margin-left: 20%;
+    
+}
+
+.secondBlock>p:nth-child(3)
+{
+    margin-left: 23%;
+}
+
+.secondBlock>p:nth-child(4)
+{
+    margin-left: 40%;
+}
+
+.secondBlock>p:nth-child(5)>span:first-child
+{
+    margin-left: 40px;
+    font-weight: bolder;
+}
+.secondBlock>p:nth-child(3)>span:first-child
+{
+    color: salmon;
+}
+
+.secondBlock>p:nth-child(5)>span:nth-child(2)
+{
+    font-weight: bolder;
+    font-size: small;
+}
+.secondBlock>p:nth-child(5)>span:nth-child(3)
+{
+    color: salmon;
+}
+.secondBlock>p:nth-child(5)>span:nth-child(4)
+{
+    color: rgb(199, 28, 9);
+}
+.secondBlock>p:nth-child(5)>span:nth-child(4)
+{
+    color: rgb(10, 219, 45);
+}
+
+.secondBlock>p:nth-child(5)>span:nth-child(5)
+{
+    color: rgb(10, 31, 219);
+}
+.secondBlock>p:nth-child(5)>span:nth-child(6)
+{
+    color: rgb(195, 69, 199);
+}
+.secondBlock>p:nth-child(5)>span:nth-child(7)
+{
+    color: rgb(199, 69, 76);
+}
+.secondBlock>p:nth-child(5)>span:nth-child(7)
+{
+    color: rgb(69, 136, 199);
+}
+.secondBlock>p:nth-child(5)>span:nth-child(8)
+{
+    color: rgb(135, 216, 211);
+}
+.secondBlock>p:nth-child(5)>span:nth-child(9)
+{
+    color: rgb(233, 50, 205);
+    font-size: large;
+}
+.secondBlock>p:nth-child(5)>span:nth-child(10)
+{
+    color: rgb(116, 96, 167);
+    font-size: x-large;
+}
+.secondBlock>p:nth-child(5)>span:nth-child(11)
+{
+    color: rgb(247, 18, 18);
+    text-decoration:underline;
+}
+
+.thirdBllock
+{
+    padding-right: 20% ;
+    padding-left: 20% ;
+    margin-bottom: 2%;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.thirdBllock>p:nth-child(2)
+{
+    text-decoration: underline;
+    color: rgb(241, 104, 212);
+}
+.thirdBllock>p:nth-child(2)>span
+{
+    
+    color: rgb(164, 189, 53);
+}
+.thirdBllock>p:nth-child(3)
+{
+    font-size: medium;
+    font-weight: normal;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.thirdBllock>p:nth-child(1)>span
+{
+    margin-left: 40px;
+}
